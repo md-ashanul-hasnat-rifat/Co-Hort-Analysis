@@ -1,20 +1,59 @@
 # Retail Cohort Analysis with Power BI
-This project leverages the capabilities of Power BI to conduct comprehensive cohort analysis within the retail sector. Cohort analysis provides valuable insights into customer behavior over time, helping businesses understand trends, identify patterns, and optimize strategies for growth and profitability.
+![Cohort Analysis](Cohort%20Anaalysis.jpg)
+## Overview
+This dashboard provides a detailed view of **customer retention and churn trends** over time for a retail business. It leverages cohort analysis to track how groups of customers behave after their initial purchase month, helping identify retention challenges and opportunities.
 
-## Key Features
-Retention Rate Analysis: Understand how well the business retains customers over time by segmenting them into cohorts based on signup dates.
-Cohort Performance Evaluation: Compare the performance of different customer cohorts to identify the most valuable segments.
-Churn Rate Analysis: Identify the rate at which customers churn or disengage from the business, enabling proactive retention strategies.
-Churned Customer Analysis: Analyze the characteristics and behaviors of churned customers to uncover reasons for disengagement and inform retention efforts.
-Recovered Customer Assessment: Evaluate the success of efforts to win back customers who have previously churned.
-Benefits
-Data-Driven Decision Making: Empower your business with insights derived from robust cohort analysis.
-Improved Customer Retention: Develop strategies to enhance customer retention rates and boost revenue.
-Targeted Marketing Efforts: Tailor marketing campaigns based on the specific needs and preferences of different customer segments.
-Enhanced Customer Experience: Identify areas for improvement and optimize the overall customer experience.
-How to Use
-Install Power BI: Ensure you have Power BI Desktop installed on your system.
-Download Data: Obtain the necessary retail customer data to perform cohort analysis.
-Import Data into Power BI: Import the data into Power BI Desktop and begin analyzing.
-Explore Insights: Utilize the provided dashboard to explore retention rates, cohort performance, churn rates, and more.
-Take Action: Use the insights gained to make informed decisions and optimize strategies for customer retention and growth.
+---
+
+## 🔑 Key Components
+
+### 1. Date Range Selector
+- Allows filtering of data between **01/01/2009 – 01/12/2011**.
+- Enables focused analysis on specific time windows.
+
+### 2. Churned Rate Heatmap
+- Rows represent **monthly cohorts** (customers who joined in a given month).
+- Columns represent **months since cohort start**.
+- Cells show **churn percentage** (higher % = more customers lost).
+- Example: January 2010 cohort shows ~79% churn in the first month, stabilizing at ~77% in later months.
+
+### 3. Customer Retention Breakdown (Bar Chart)
+- Categorizes customers into:
+  - **New Customers** – first-time buyers.
+  - **Resurrected Customers** – returning after inactivity.
+  - **Retained Customers** – consistent repeat buyers.
+- Displays proportions from **Jan 2010 – Jul 2011**.
+
+### 4. Customer Lifecycle Trends (Line Chart)
+- Tracks **Lost, Resurrected, and New Customers** by month.
+- Highlights seasonal patterns and customer acquisition spikes.
+
+### 5. Interactive Filters
+- Buttons to toggle visibility of:
+  - Lost Customers
+  - Resurrected Customers
+  - New Customers
+- Helps isolate specific customer behaviors.
+
+---
+
+
+##  Insights
+- **High churn rates** in early months (70–90%) suggest retention challenges.
+- Some cohorts stabilize at ~77% churn, indicating a consistent long-term retention baseline.
+- **Resurrected customers** play a significant role in sustaining revenue, especially mid-2010.
+- **October 2010 cohort** shows unusually high churn (91%), worth investigating for possible operational or market issues.
+
+---
+
+## 🛠 Use Cases
+- **E-commerce & Retail Strategy**: Identify weak retention months and improve loyalty programs.
+- **Marketing Analysis**: Evaluate effectiveness of campaigns in reducing churn.
+- **Product Development**: Spot patterns where customers disengage and refine offerings.
+- **Business Intelligence**: Support KPI tracking across customer lifecycle stages.
+
+---
+
+
+- **Purpose**: Customer retention & churn analysis
+
